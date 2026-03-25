@@ -16,7 +16,7 @@ interface Project {
 const Projects: React.FC = () => {
   const projects: Project[] = [
     {
-      title: 'E-Commerce Website',
+      title: 'DirectDigs (E-commerce Website)',
       description: 'Developed a responsive e-commerce platform with a product catalog, cart system, and checkout interface. Implemented client-side validation and interactive UI features using JavaScript.',
       techStack: [
         { icon: SiTailwindcss, name: 'HTML' },
@@ -28,14 +28,17 @@ const Projects: React.FC = () => {
       image: '/api/placeholder/400/250',
     },
     {
-      title: 'Typing Speed Test Application',
-      description: 'Built a desktop-based typing speed test application with user login, leaderboard, and typing performance analytics. Features real-time WPM calculation and accuracy tracking.',
+      title: 'Exam Insight Predictor',
+      description: 'AI-powered exam prep platform with dynamic question generation, secure login, and performance tracking for competitive exams.',
       techStack: [
-        { icon: FaNodeJs, name: 'Python' },
-        { icon: FaReact, name: 'Tkinter' },
+        { icon: FaReact, name: 'React' },
+        { icon: FaReact, name: 'TypeScript' },
+        { icon: FaNodeJs, name: 'Node.js' },
+        { icon: SiMongodb, name: 'MongoDB' },
+        { icon: SiExpress, name: 'OpenAI API' },
       ],
       liveUrl: '#',
-      githubUrl: 'https://github.com/Srishtirana',
+      githubUrl: 'https://github.com/Srishtirana/exam-insight-predictor',
       image: '/api/placeholder/400/250',
     },
     {
