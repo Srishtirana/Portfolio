@@ -42,15 +42,15 @@ const Projects: React.FC = () => {
       image: '/api/placeholder/400/250',
     },
     {
-      title: 'Smart Digital Tourism Platform',
-      description: 'Developed an AI-based tourism recommendation platform focused on improving travel experience using intelligent suggestions and modern web development practices.',
+      title: 'LiveCodeX',
+      description: 'Live coding platform with real-time collaboration, code execution, and interactive learning features for developers.',
       techStack: [
-        { icon: FaNodeJs, name: 'Python' },
-        { icon: SiExpress, name: 'Flask' },
-        { icon: SiMongodb, name: 'MySQL' },
+        { icon: FaReact, name: 'React' },
+        { icon: FaNodeJs, name: 'Node.js' },
+        { icon: SiMongodb, name: 'MongoDB' },
       ],
       liveUrl: '#',
-      githubUrl: 'https://github.com/Srishtirana',
+      githubUrl: 'https://github.com/Srishtirana/LiveCodeX',
       image: '/api/placeholder/400/250',
     },
   ];
